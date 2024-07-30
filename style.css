@@ -1,12 +1,15 @@
+/* External Font Link */
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
-
+/* Universal Selector */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Ubuntu", sans-serif;
 }
+
+/* Body Styling */
 body{
     display: flex;
     flex-direction: column;
@@ -17,26 +20,35 @@ body{
     background-color: #021526;
     color: #ffffff;
 }
+
+/* Login Form Container */
 .container{
     background-color: rgba(3, 52, 110, 0.4);
     padding: 20px 40px;
     border-radius: 10px;
 }
+
+/* Login Heading  */
 .container h1{
     text-align: center;
     margin-bottom: 30px;
     text-transform: capitalize;
 }
+
+/* Register Link */
 .container a{
     text-decoration: none;
     color: #028391;
 }
 
+/* Input and Label */
 .form-control{
     position: relative;
     margin: 20px 0 40px;
     width: 300px;
 }
+
+/* Input */
 .form-control input{
     background-color: transparent;
     border: none;
@@ -53,6 +65,7 @@ body{
     ;
 }
 
+/* Login Button */
 .btn{
     cursor: pointer;
     display: inline-block;
@@ -67,16 +80,19 @@ body{
     transform: scale(0.95);
 }
 
+/* Register Paragraph */
 .text{
     margin-top: 30px;
 }
 
+/* Label */
 .form-control label{
     position: absolute;
     top: 15px;
     left: 0;
 }
 
+/* Wave Animation */
 .form-control label span{
     display: inline-block;
     font-size: 18px;
